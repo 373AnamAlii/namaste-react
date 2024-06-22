@@ -1,0 +1,28 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<!-- Creating basic html using javascript-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Namaste React</title>
+</head>
+<body>
+    <!-- putting h1 inside the root(injecting js in html)-->
+    <div id="root"></div>
+       
+        <!-- 1)writing  hello world in html by using js to inject it
+        2) finding where the root is by using getElementById
+        3)heading will go as  a child inside the root when we use appendChild
+    Browsers understand document, createElement , innerHTML as these are the superpowers which browsers already have in it  
+    Browsers have a js engine in it, which executes them.  But browsers do not understand react code.  
+-->
+        <script> const heading =document.createElement("h1");
+                      heading.innerHTML= "Hello World from javascript!";
+        const root=document.getElementById("root");
+        root.appendChild(heading);
+        </script>
+    
+</body>
+</html>
