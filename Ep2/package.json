@@ -1,0 +1,30 @@
+{
+  "name": "ep2",
+  "version": "1.0.0",
+  "description": "Namaste react ep 2 code",
+
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/373AnamAlii/namaste-react.git"
+  },
+  "author": "Anam Ali",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/373AnamAlii/namaste-react/issues"
+  },
+  "homepage": "https://github.com/373AnamAlii/namaste-react#readme",
+  "devDependencies": {
+    "parcel": "^2.13.3",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "browserslist": {
+    "Last 2 versions"
+  }
+}
